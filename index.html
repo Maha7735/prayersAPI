@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- // fonts // -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #633d18">
+    <div
+      class="container mt-5 mb-5 pb-4"
+      style="background-color: #f6f6f7; border-radius: 15px"
+    >
+      <div
+        class="d-flex justify-content-evenly"
+        style="background-color: #f6f6f7"
+      >
+        <img
+          src="/images/freepicpng_eid-mubarak-islamic-masjid-1024x1024.png"
+          class="rounded mx-auto"
+          alt="mosqueImage"
+          style="width: 20%; margin-right: 5px"
+        />
+        <div
+          style="
+            margin-top: 7%;
+            margin-right: 5%;
+            margin-left: 60%;
+            font-family: El Messiri;
+          "
+        >
+          <h2
+            id="day"
+            style="
+              direction: rtl;
+              color: #096470;
+              padding-bottom: 4px;
+              text-shadow: 0.5px 0.5px 1px #a3a3a3;
+            "
+          >
+            الإثنين
+          </h2>
+          <h4
+            id="date"
+            style="
+              direction: rtl;
+              text-shadow: 1.5px 1.5px 1px #000000;
+              color: white;
+            "
+          >
+            2025/8/22
+          </h4>
+        </div>
+      </div>
+      <div
+        class="d-flex pt-3 align-items-center justify-content-center rounded-start"
+        style="
+          background-color: #d9ccc4;
+          flex-direction: column;
+          box-shadow: 1px 0.1px 2px #747373;
+        "
+      >
+        <h1
+          style="
+            font-family: Reem Kufi;
+            color: #f6f6f7;
+            text-shadow: 1px 1px 2px #000000;
+          "
+        >
+          مواقيت الصلاة
+        </h1>
+        <div
+          id="allTimes"
+          style="direction: rtl; width: 100%"
+          class="d-flex justify-content-evenly container"
+        >
+          <div id="fajr" class="times">
+            <img src="/images/sunrise.png" />
+
+            <h4>الفجر</h4>
+            <hr />
+            <h5 id="fajrTime">04:25</h5>
+          </div>
+
+          <div id="shrowg" class="times">
+            <img src="/images/sunny.png" />
+            <h4>الشروق</h4>
+            <hr />
+            <h5 id="shrowgTime">05:47</h5>
+          </div>
+
+          <div id="dahar" class="times">
+            <img src="/images/Afternoon.png" />
+            <h4>الظهر</h4>
+            <hr />
+            <h5 id="daharTime">12:16</h5>
+          </div>
+
+          <div id="aser" class="times">
+            <img src="/images/Afternoon1.png" />
+            <h4>العصر</h4>
+            <hr />
+            <h5 id="aserTime">03:49</h5>
+          </div>
+
+          <div id="magrab" class="times">
+            <img src="/images/down1.png" />
+            <h4>المغرب</h4>
+            <hr />
+            <h5 id="magrabTime">06:44</h5>
+          </div>
+
+          <div id="aisha" style="margin-left: 2%" class="times">
+            <img src="/images/nightn.png" />
+            <h4>العشاء</h4>
+            <hr />
+            <h5 id="aishaTime">08:14</h5>
+          </div>
+        </div>
+        <div id="cityList">
+          <select
+            id="cities-select"
+            style="
+              box-shadow: 1px 1px 4px #747373;
+              font-family: El Messiri;
+              direction: rtl;
+            "
+            class="form-select form-select-lg mb-3"
+            aria-label="Large select example"
+          >
+            <option selected>قائمة المدن</option>
+            <option value="1">حائل</option>
+            <option value="2">الرياض</option>
+            <option value="3">مكة المكرمة</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="/script.js"></script>
+</html>
