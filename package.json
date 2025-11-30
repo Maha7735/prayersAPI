@@ -1,7 +1,6 @@
 {
   "name": "adhanapi",
   "version": "1.0.0",
-  "homepage": "https://Maha7735.github.io/prayersAPI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
