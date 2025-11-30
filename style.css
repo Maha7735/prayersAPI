@@ -1,11 +1,11 @@
 .times {
   font-family: El Messiri;
-  width: 20%;
-  height: 250px;
-  margin-top: 4%;
-  margin-bottom: 4%;
+  width: 12%;
+  height: 210px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   margin-right: 2%;
-  padding: 30px 50px;
+  padding: 5px 50px;
   border-radius: 10px;
   background-color: #f6f6f7;
   box-shadow: 1px 1px 4px #747373;
@@ -15,11 +15,13 @@
   align-items: center;
 }
 .times h4 {
-  padding-bottom: 5px;
+  padding-bottom: 1px;
+  margin-top: -5px;
+  margin-bottom: -30px;
   padding-top: 35px;
 }
 .times img {
-  width: 50px;
+  width: 30px;
 }
 #allTimes {
   overflow-x: auto;
